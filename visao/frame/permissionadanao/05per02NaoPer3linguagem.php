@@ -10,14 +10,12 @@
 <div class="container">
     <?php include("../../../menu.php") ?>
     <div class="row">
-        <div class="col col-md-7">
+        <div class="col col-md-12">
             <div class="jumbotron">
                 <h1 class="display-4">Linguagem consolidada?</h1>
-
                 <hr class="my-4">
                 <div class="row mt-5">
-
-                    <div class="col col-md-5">
+                    <div class="col col-md-8">
                         <button onclick="location.href = '/frameworkDApp/visao/frame/permissionadanao/06per2simper3per4.php?figura=sim';" type="button" class="btn btn-dark">Sim</button>
                         <button onclick="location.href = '/frameworkDApp/visao/frame/permissionadanao/06per2simper3per4.php?figura=nao';" type="button" class="btn btn-dark">Não</button>
                     </div>
@@ -27,9 +25,13 @@
                 </div>
             </div>
         </div>
-        <div class="col col-md-5">
-            <img src="/frameworkDApp/recursos/imagens/per02naoper03.png" class="img-fluid" alt="...">
+    </div>
+    <div class="row">
+         <div class="col col-md-3"></div>
+        <div class="col col-md-6">
+        <img src="/frameworkDApp/recursos/imagens/per02naoper03.png" class="img-fluid" alt="...">
         </div>
+        <div class="col col-md-3"></div>
     </div>
     <div class="row">
         <div class="col col-md-12">

@@ -10,37 +10,37 @@
 <div class="container">
     <?php include("../../../menu.php") ?>
     <div class="row">
-        <div class="col col-md-6">
+        <div class="col col-md-12">
             <div class="jumbotron">
                 <h1 class="display-4">Plataforma(s) sugerida(s)</h1>
                 <hr class="my-4">
                 <div class="row mt-5">
-                    <div class="col col-md-6">
+                    <div class="col col-md-12">
                         <ul>
                             <?php
                             if ($_GET['figura'] == 'sim') {
-                                echo '<a href="https://ethereum.org/pt/" class="btn btn-link">';
-                                echo '<li><span class="glyphicon glyphicon-th-list"></span> Ethereum</li> </a>';
+                                echo '<a target="_blank" href="https://ethereum.org/pt/" class="btn btn-link">';
+                                echo '<li><span class="glyphicon glyphicon-th-list"></span> Ethereum</li> </a></br>';
 
-                                echo '<a href="https://rootstock.io/" class="btn btn-link">';
-                                echo '<li><span class="glyphicon glyphicon-th-list"></span> RSK</li> </a>';
+                                echo '<a target="_blank" href="https://rootstock.io/" class="btn btn-link">';
+                                echo '<li><span class="glyphicon glyphicon-th-list"></span> RSK</li> </a></br>';
 
-                                echo '<a href="https://neo.org/" class="btn btn-link">';
-                                echo '<li><span class="glyphicon glyphicon-th-list"></span> Neo</li> </a>';
+                                echo '<a target="_blank" href="https://neo.org/" class="btn btn-link">';
+                                echo '<li><span class="glyphicon glyphicon-th-list"></span> Neo</li> </a></br>';
 
-                                echo '<a href="https://eosnetwork.com/" class="btn btn-link">';
+                                echo '<a target="_blank" href="https://eosnetwork.com/" class="btn btn-link">';
                                 echo '<li><span class="glyphicon glyphicon-th-list"></span> EOS</li> </a>';
                             } else if ($_GET['figura'] == 'nao'){
-                                echo '<a href="https://ethereum.org/pt/" class="btn btn-link">';
-                                echo '<li><span class="glyphicon glyphicon-th-list"></span> Ethereum</li> </a>';
+                                echo '<a target="_blank" href="https://ethereum.org/pt/" class="btn btn-link">';
+                                echo '<li><span class="glyphicon glyphicon-th-list"></span> Ethereum</li> </a></br>';
 
-                                echo '<a href="https://rootstock.io/" class="btn btn-link">';
-                                echo '<li><span class="glyphicon glyphicon-th-list"></span> RSK</li> </a>';
+                                echo '<a target="_blank" href="https://rootstock.io/" class="btn btn-link">';
+                                echo '<li><span class="glyphicon glyphicon-th-list"></span> RSK</li> </a></br>';
 
-                                echo '<a href="https://neo.org/" class="btn btn-link">';
-                                echo '<li><span class="glyphicon glyphicon-th-list"></span> Neo</li> </a>';
+                                echo '<a target="_blank" href="https://neo.org/" class="btn btn-link">';
+                                echo '<li><span class="glyphicon glyphicon-th-list"></span> Neo</li> </a></br>';
 
-                                echo '<a href="https://eosnetwork.com/" class="btn btn-link">';
+                                echo '<a target="_blank" href="https://eosnetwork.com/" class="btn btn-link">';
                                 echo '<li><span class="glyphicon glyphicon-th-list"></span> EOS</li> </a>';
                             }
                             ?>
@@ -49,11 +49,15 @@
                 </div>
             </div>
         </div>
-        <div class="col col-md-6">
-            <?php
+    </div>
+    <div class="row">
+         <div class="col col-md-2"></div>
+        <div class="col col-md-8">
+        <?php
                 echo '<img src="/frameworkDApp/recursos/imagens/per02naoper03' . $_GET['figura'] . 'per4' . $_GET['figura2'] . '.png" class="img-fluid" alt="...">';
             ?>
         </div>
+        <div class="col col-md-2"></div>
     </div>
     <div class="row">
         <div class="col col-md-12">

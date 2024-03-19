@@ -14,14 +14,12 @@
 <div class="container">
     <?php include("../../menu.php") ?>
     <div class="row">
-        <div class="col col-md-8">
+        <div class="col col-md-12">
             <div class="jumbotron">
                 <h1 class="display-4">Necessita de uma rede permissionada?</h1>
-
                 <hr class="my-4">
                 <div class="row mt-5">
-
-                    <div class="col col-md-7">
+                    <div class="col col-md-9">
                         <button onclick="location.href = '/frameworkDApp/visao/frame/05per02SimPer3linguagem.php';" type="button" class="btn btn-dark">Sim</button>
                         <button onclick="location.href = '/frameworkDApp/visao/frame/permissionadanao/05per02NaoPer3linguagem.php';" type="button" class="btn btn-dark">Não</button>
                     </div>
@@ -31,9 +29,13 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="row">
+         <div class="col col-md-4"></div>
         <div class="col col-md-4">
-            <img src="/frameworkDApp/recursos/imagens/per02.png" class="img-fluid" alt="...">
+        <img src="/frameworkDApp/recursos/imagens/per02.png" class="img-fluid" alt="...">
         </div>
+        <div class="col col-md-4"></div>
     </div>
     <div class="row">
         <div class="col col-md-12">

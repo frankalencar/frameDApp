@@ -10,12 +10,12 @@
 <div class="container">
     <?php include("../../../menu.php") ?>
     <div class="row">
-        <div class="col col-md-6">
+        <div class="col col-md-12">
             <div class="jumbotron">
                 <h1 class="display-4">Necessita de Token?</h1>
                 <hr class="my-4">
                 <div class="row mt-5">
-                    <div class="col col-md-5">
+                    <div class="col col-md-10">
                         <button onclick="location.href = '/frameworkDApp/visao/frame/permissionadanao/07per2simper3per4per5.php?figura=<?php echo $_GET['figura'] ?>&figura2=sim';" type="button" class="btn btn-dark">Sim</button>
                         <button onclick="location.href = '/frameworkDApp/visao/frame/permissionadanao/07per2simper3per4per5.php?figura=<?php echo $_GET['figura'] ?>&figura2=nao';" type="button" class="btn btn-dark">Não</button>
                     </div>
@@ -25,11 +25,15 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="row">
+         <div class="col col-md-3"></div>
         <div class="col col-md-6">
-            <?php
+        <?php
                 echo '<img src="/frameworkDApp/recursos/imagens/per02naoper03' . $_GET['figura'] . '.png" class="img-fluid" alt="...">';
-            ?>            
+            ?>  
         </div>
+        <div class="col col-md-3"></div>
     </div>
     <div class="row">
         <div class="col col-md-12">

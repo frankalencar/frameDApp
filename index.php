@@ -11,15 +11,17 @@
 <div class="container">
 
     <?php include("menu.php") ?>
+    
     <div class="row">
         <div class="col col-md-12">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
-                    <h1 class="display-4">Aplicações Descentralizadas</h1>
-                    <p class="lead">Baseada em uma rede BlockChain e fazendo uso de contratos inteligentes, as aplicações descentralizadas são
+                
+                    <h1 class="display-4"><strong>Aplicações Descentralizadas</strong></h1>
+                    <p class="lead"><strong>Baseada em uma rede BlockChain e fazendo uso de contratos inteligentes, as aplicações descentralizadas são
                         softwares de código aberto, transparentes e auditados com facilidade. Por ser descentralizada, seus dados e validações 
-                        necessárias são providos pelos nós que compõem a rede (Yang et al., 2019).</p>
-                        <button onclick="location.href = '/frameworkDApp/visao/frame/01webclassicaxdapp.php';" type="button" class="btn btn-dark">Comece a programar agora!</button>
+                        necessárias são providos pelos nós que compõem a rede (Yang et al., 2019).</strong></p>
+                        <button onclick="location.href = '/frameworkDApp/visao/frame/01webclassicaxdapp.php';" type="button" class="btn btn-dark"><strong>Comece a programar agora!</strong></button>
                 </div>
             </div>
             <div class="row">
@@ -31,6 +33,7 @@
             </div>
         </div>
     </div>
+    
 </div>
 </body>
 </html>
