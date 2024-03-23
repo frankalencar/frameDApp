@@ -6,13 +6,15 @@
         <li class="nav-item">
             <a class="nav-link active" href="/frameworkDApp/index.php">Principal</a>
         </li>
+        <!--li class="nav-item">
+            <a class="nav-link active" href="/frameworkDApp/avaliacaoDoFrame.php">Avaliação do Framework</a>
+        </li-->
         <li class="nav-item">
             <a class="nav-link active" target="_blank"  href="https://www.dappuniversity.com/articles/the-ultimate-ethereum-dapp-tutorial">Tutorial - dappuniversity</a>
         </li>
         <li class="nav-item">
             <a class="nav-link active" target="_blank"  href="https://www.youtube.com/watch?v=3681ZYbDSSk">Vídeo - Guia dev</a>
         </li>
-      
         <li class="nav-item">
             <a class="nav-link disabled" id="nomeUsuario" href="#"></a>
         </li>

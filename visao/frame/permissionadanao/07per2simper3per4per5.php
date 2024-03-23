@@ -36,12 +36,6 @@
 
                                 echo '<a target="_blank" href="https://rootstock.io/" class="btn btn-link">';
                                 echo '<li><span class="glyphicon glyphicon-th-list"></span> RSK</li> </a></br>';
-
-                                echo '<a target="_blank" href="https://neo.org/" class="btn btn-link">';
-                                echo '<li><span class="glyphicon glyphicon-th-list"></span> Neo</li> </a></br>';
-
-                                echo '<a target="_blank" href="https://eosnetwork.com/" class="btn btn-link">';
-                                echo '<li><span class="glyphicon glyphicon-th-list"></span> EOS</li> </a>';
                             }
                             ?>
                         </ul>
